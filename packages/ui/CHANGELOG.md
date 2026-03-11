@@ -1,5 +1,11 @@
 # Changelog @tonconnect/ui
 
+## 2.4.3-beta.0
+
+### Patch Changes
+
+- chore: test publish
+
 ## 2.4.2
 
 ### Patch Changes

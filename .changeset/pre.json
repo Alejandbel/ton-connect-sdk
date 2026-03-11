@@ -1,0 +1,15 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@alejandbel/ton-connect-isomorphic-eventsource": "0.0.2",
+    "@alejandbel/ton-connect-isomorphic-fetch": "0.0.3",
+    "@alejandbel/ton-connect-protocol": "2.4.0",
+    "@alejandbel/ton-connect-sdk": "3.4.1",
+    "@alejandbel/ton-connect-ui": "2.4.2",
+    "@alejandbel/ton-connect-ui-react": "2.4.2"
+  },
+  "changesets": [
+    "khaki-bobcats-smell"
+  ]
+}
