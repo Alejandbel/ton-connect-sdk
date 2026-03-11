@@ -200,9 +200,6 @@ jobs:
       # ── main: publish to npm (beta / latest) ──────────────────────────────
       - name: Publish to npm (main)
         if: github.ref == 'refs/heads/main' && steps.version_check.outputs.should_release == 'true'
-        env:
-          NODE_AUTH_TOKEN: ''
-          NPM_TOKEN: ''
         run: |
           NPM_TAG=$( [ "${{ steps.version_check.outputs.has_beta }}" = "true" ] && echo "beta" || echo "latest" )
           echo "Publishing with npm tag: $NPM_TAG"
@@ -215,16 +212,12 @@ jobs:
               --access=public \
               --publish-branch=main \
               --tag="$NPM_TAG" \
-              --provenance \
               --verbose
           done <<< "${{ steps.version_check.outputs.changed_packages }}"
 
       # ── develop: publish to npm (dev) ─────────────────────────────────────
       - name: Publish to npm (develop)
         if: github.ref == 'refs/heads/develop'
-        env:
-          NODE_AUTH_TOKEN: ''
-          NPM_TOKEN: ''
         run: |
           echo "Publishing with npm tag: dev"
           for pkg_json in packages/*/package.json; do
@@ -239,7 +232,6 @@ jobs:
               --publish-branch=develop \
               --tag=dev \
               --no-git-checks \
-              --provenance \
               --verbose
           done
 

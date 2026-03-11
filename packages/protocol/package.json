@@ -3,7 +3,7 @@
   "version": "2.4.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alejandbel/ton-connect-sdk.git"
+    "url": "https://github.com/Alejandbel/ton-connect-sdk"
   },
   "homepage": "https://github.com/Alejandbel/ton-connect-sdk/tree/main/packages/protocol",
   "bugs": {
