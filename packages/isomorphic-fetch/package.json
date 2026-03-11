@@ -1,13 +1,13 @@
 {
-  "name": "@tonconnect/isomorphic-fetch",
+  "name": "@alejandbel/ton-connect-isomorphic-fetch",
   "version": "0.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ton-connect/sdk.git"
+    "url": "git+https://github.com/Alejandbel/ton-connect-sdk.git"
   },
-  "homepage": "https://github.com/ton-connect/sdk/tree/main/packages/isomorphic-fetch",
+  "homepage": "https://github.com/Alejandbel/ton-connect-sdk/tree/main/packages/isomorphic-fetch",
   "bugs": {
-    "url": "https://github.com/ton-connect/sdk/issues"
+    "url": "https://github.com/Alejandbel/ton-connect-sdk/issues"
   },
   "keywords": [
     "ton-connect",

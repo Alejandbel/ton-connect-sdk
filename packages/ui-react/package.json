@@ -1,5 +1,5 @@
 {
-  "name": "@tonconnect/ui-react",
+  "name": "@alejandbel/ton-connect-ui-react",
   "version": "2.4.2",
   "scripts": {
     "dev": "vite",
@@ -7,11 +7,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ton-connect/sdk.git"
+    "url": "git+https://github.com/Alejandbel/ton-connect-sdk.git"
   },
-  "homepage": "https://github.com/ton-connect/sdk/tree/main/packages/ui-react",
+  "homepage": "https://github.com/Alejandbel/ton-connect-sdk/tree/main/packages/ui-react",
   "bugs": {
-    "url": "https://github.com/ton-connect/sdk/issues"
+    "url": "https://github.com/Alejandbel/ton-connect-sdk/issues"
   },
   "keywords": [
     "TON",
