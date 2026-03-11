@@ -52,7 +52,7 @@
     "vite-plugin-dts": "^4.5.4"
   },
   "dependencies": {
-    "@tonconnect/ui": "workspace:*"
+    "@tonconnect/ui": "workspace:@alejandbel/ton-connect-ui@*"
   },
   "peerDependencies": {
     "react": ">=17.0.0",

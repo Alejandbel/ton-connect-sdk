@@ -84,10 +84,10 @@ importers:
         specifier: 15.3.1
         version: 15.3.1(@ton/core@0.61.0(@ton/crypto@3.3.0))(@ton/crypto@3.3.0)
       '@tonconnect/sdk':
-        specifier: workspace:*
+        specifier: workspace:@alejandbel/ton-connect-sdk@*
         version: link:../../packages/sdk
       '@tonconnect/ui-react':
-        specifier: workspace:*
+        specifier: workspace:@alejandbel/ton-connect-ui-react@*
         version: link:../../packages/ui-react
       buffer:
         specifier: ^6.0.3
@@ -192,13 +192,13 @@ importers:
   packages/sdk:
     dependencies:
       '@tonconnect/isomorphic-eventsource':
-        specifier: workspace:*
+        specifier: workspace:@alejandbel/ton-connect-isomorphic-eventsource@*
         version: link:../isomorphic-eventsource
       '@tonconnect/isomorphic-fetch':
-        specifier: workspace:*
+        specifier: workspace:@alejandbel/ton-connect-isomorphic-fetch@*
         version: link:../isomorphic-fetch
       '@tonconnect/protocol':
-        specifier: workspace:*
+        specifier: workspace:@alejandbel/ton-connect-protocol@*
         version: link:../protocol
     devDependencies:
       '@rollup/plugin-replace':
@@ -247,7 +247,7 @@ importers:
   packages/ui:
     dependencies:
       '@tonconnect/sdk':
-        specifier: workspace:*
+        specifier: workspace:@alejandbel/ton-connect-sdk@*
         version: link:../sdk
       classnames:
         specifier: ^2.5.1
@@ -323,7 +323,7 @@ importers:
   packages/ui-react:
     dependencies:
       '@tonconnect/ui':
-        specifier: workspace:*
+        specifier: workspace:@alejandbel/ton-connect-ui@*
         version: link:../ui
       react:
         specifier: '>=17.0.0'
